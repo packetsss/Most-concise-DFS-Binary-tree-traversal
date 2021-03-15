@@ -7,13 +7,13 @@ My binary tree:
     4   5 6   7
 
 Pre-order:      1 -> 2 -> 4 -> 5 -> 3 -> 6 -> 7
-    Start from root, keep going to left, if can't go left anymore, move one to right
+    Start from root, then move to left, then move to right
 
 In-order:       4 -> 2 -> 5 -> 1 -> 6 -> 3 -> 7
-    Start from deepest left node, then move to the right
+    Start from left, then move to root, then move to right.
 
 Post-order:     4 -> 2 -> 5 -> 6 -> 3 -> 7 -> 1
-    I forgot -.-
+    Start from left, then move to right, then move to root.
 """
 
 
